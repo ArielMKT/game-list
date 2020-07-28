@@ -29,7 +29,7 @@ buildscript {
     }
 }
 
-group 'template-kotlin-backend'
+group 'game-list'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -50,6 +50,7 @@ dependencies {
 
     // Ktor
     compile "io.ktor:ktor-server-netty:$ktor_version"
+    compile "io.ktor:ktor-server-jetty:$ktor_version"
     compile "io.ktor:ktor-jackson:$ktor_version"
     compile "io.ktor:ktor-client-cio:$ktor_version"
     compile "io.ktor:ktor-client-json-jvm:$ktor_version"
